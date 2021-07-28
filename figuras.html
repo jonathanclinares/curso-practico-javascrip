@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas / Curso Practico de Java Scrip</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Figuras geometricas
+        </h1>
+        <p>Aca puedes colocar las putas medidas que te den tus profesores y calcular las areas de las figuras geometricas</p>
+    </header>
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form>
+            <label for="InputCuadrado">
+                Escribe cuanto vergas mide el lado de tu cuadrado hdp
+            </label>
+            <input id="InputCuadrado" type="number" />
+            <br>
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular el perimetro del cuadrado
+            </button> 
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el area del cuadrado
+            </button>
+
+        </form>
+    </section>
+    <section>
+        <h2>Calcula el area y perimetro de un PUTO Triangulo</h2>
+        <form>
+            <label for="InputTriangulo1">
+                <br>Escribe cuanto vergas mide uno de los lados del triangulo
+            </label>
+            <input id="InputTriangulo1" type="number" />
+            <label for="InputTriangulo2">
+                <br>Escribe cuanto vergas mide otro lado del triangulo, no el mismo que el que mencionaste arriba Puto
+            </label>
+            <input id="InputTriangulo2" type="number" />
+            <label for="InputTriangulo3">
+                <br>Escribe cuanto vergas mide la base de tu triangulo
+            </label>
+            <input id="InputTriangulo3" type="number" />
+            <label for="InputTriangulo4">
+                <br>Escribe cuanto vergas mide la Altura de tu puto triangulo
+            </label>
+            <input id="InputTriangulo4" type="number" />
+
+            <br>
+            <button type="button" onclick="calcularPerimetroTriangulo()">
+                Calcular el perimetro del triangulo
+            </button> 
+            <button type="button" onclick="calcularAreaTriangulo()">
+                Calcular el area del triangulo
+            </button>
+
+        </form>
+    </section>
+    <section>
+        <h2>Calcula el area y perimetro de un cirCULO</h2>
+        <form>
+            <label for="InputCirculo">
+                <br>Escribe cuanto vergas mide el radio del cirCULO
+            </label>
+            <input id="InputCirculo" type="number" />
+            <br>
+            <button type="button" onclick="calcularPerimetroCirculo()">
+                Calcular el perimetro del CirCULO
+            </button> 
+            <button type="button" onclick="calcularAreaCirculo()">
+                Calcular el area del CirCULO
+            </button>
+
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula el area y perimetro de un Triangulo Isoseles</h2>
+        <form>
+            <label for="InputIsoseles">
+                <br>Escribe cuanto vergas mide el lado 1 de tu triangulo isoseles
+            </label>
+            <input id="InputIsoseles" type="number" />
+            <label for="InputIsoseles1">
+                <br>Se que suena estupido, pero ingresa el lado 2 de tu puto triangulo isoseles
+            </label>
+            <input id="InputIsoseles1" type="number" />
+            <label for="InputIsoseles2">
+                <br>Se que debes pensar que estoy cagando fuera del water pero por el tercer lado de tu triangulo isoseles
+            </label>
+            <input id="InputIsoseles2" type="number" />
+            <br>
+            <button type="button" onclick="calcularPerimetroIsoseles()">
+                Calcular el perimetro del Triangulo Isoseles
+            </button> 
+            <button type="button" onclick="calcularAreaIsoseles()">
+                Calcular el area del Triangulo Isoseles
+            </button>
+
+        </form>
+    </section>
+
+    <script src="./figuras.js"></script>
+
+    
+</body>
+</html>
